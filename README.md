@@ -1,2 +1,4 @@
 # CIS250-Array-Reverse
 Algorithm practice testing three methods of reversing an array.
+
+There are three methods/algorithms used. Mathematically, Algorithm A is best. Algorithm A and B have the same space complexity. All three algo-rithms have the same time complexity. Therefore, when only considering the final complexities, Algo-rithm A and B are equal. However, Algorithm A’s and Algorithm C’s time complexities are, in effect, smaller than Algorithm B’s time complexity because, while all of them run linearly, Algorithms A and C only loop N/2 times, while Algorithm B runs N times, where N is the array size. This means that Algo-rithm A and C will generally run faster than Algorithm B. However, Algorithm C has an unnecessarily large space complexity compared to the other two, therefore it is inferior to A. When considering actual runtime, Algorithm A was again the fastest when tested, averaging at less than half of the time Algorithms B and C took.
